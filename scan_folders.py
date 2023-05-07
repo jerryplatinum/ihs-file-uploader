@@ -162,11 +162,6 @@ def generate_summary_report(summary_report, log_path):
 if __name__ == '__main__':
     src_path = r'\\userserver\data'  # Set the source path here
     template_path = r'\\systemserver\data\templates'  # Set the template path here
-    log_path = r'\\system'
-
-if __name__ == '__main__':
-    src_path = r'\\userserver\data'  # Set the source path here
-    template_path = r'\\systemserver\data\templates'  # Set the template path here
     log_path = r'\\systemserver\logs'  # Set the log path here
     quarantined_path = r'\\systemserver\quarantined'  # Set the quarantined path here
     prod_path = r'\\systemserver\data\prod'  # Set the prod path here
